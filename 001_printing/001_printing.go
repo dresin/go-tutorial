@@ -11,18 +11,18 @@ func main() {
 	fmt.Println("Println", 1)
 
 	// Printf provides complete control
-	//Printf example without blanks anf without newline
+	//Printf example without blanks and without newline
 	fmt.Printf("Printf%v", 1)
 
 	fmt.Print("Print", 2)
 	fmt.Println("Println", 2)
 
-	//Printf example without blanks anf with newline
+	//Printf example without blanks and with newline
 	fmt.Printf("Printf%v\n", 2)
 
 	fmt.Print("Print", 3)
 	fmt.Println("Println", 3)
 
-	//Printf example with tab before number and with newline
+	//Printf example with tab before the number and with newline
 	fmt.Printf("Printf\t%v\n", 3)
 }
