@@ -46,4 +46,9 @@ func main() {
 	fmt.Println("%x hexadecimal representation with lower-case letters for a-f")
 	fmt.Println("%X hexadecimal representation with upper-case letters for A-F")
 	fmt.Println("%U Unicode format: U+1234; same as U+%04X")
+	fmt.Printf("\nString and slice of bytes:\n\n")
+	fmt.Println("%s uninterpeted bytes of string or slice")
+	fmt.Println("%q a double-quoted string safely escaped with Go syntax")
+	fmt.Println("%x base 16 lower-case two characters per byte")
+	fmt.Println("%X base 16 upper-case two characters per byte")
 }
