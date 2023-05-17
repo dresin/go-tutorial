@@ -61,4 +61,6 @@ func main() {
 	fmt.Println("%q a double-quoted string safely escaped with Go syntax")
 	fmt.Println("%x base 16 lower-case two characters per byte")
 	fmt.Println("%X base 16 upper-case two characters per byte")
+	fmt.Printf("\nSlice:\n\n")
+	fmt.Println("%p address of 0th element in base 16 notation with leading 0x")
 }
