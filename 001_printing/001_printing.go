@@ -66,5 +66,12 @@ func main() {
 	fmt.Printf("\nPointer:\n\n")
 	fmt.Printf("%%p base 16 notation with leading 0x\n")
 	fmt.Printf("The %%v, %%d, %%o, %%x and %%X verbs also work formatting the value as if it were an integer\n")
-
+	fmt.Printf("\nDefault format for %%v:\n\n")
+	fmt.Printf("bool:\t\t\t\t%%t\n")
+	fmt.Printf("int, int8, etc.:\t\t%%d\n")
+	fmt.Printf("uint, uint8, etc.:\t\t%%d (%%#x if printed with %%#v)\n")
+	fmt.Printf("float32, complex64, etc.:\t%%g\n")
+	fmt.Printf("string:\t\t\t\t%%s\n")
+	fmt.Printf("chan:\t\t\t\t%%p\n")
+	fmt.Printf("pointer:\t\t\t%%p\n")
 }
