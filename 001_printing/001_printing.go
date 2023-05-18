@@ -63,4 +63,8 @@ func main() {
 	fmt.Println("%X base 16 upper-case two characters per byte")
 	fmt.Printf("\nSlice:\n\n")
 	fmt.Println("%p address of 0th element in base 16 notation with leading 0x")
+	fmt.Printf("\nPointer:\n\n")
+	fmt.Printf("%%p base 16 notation with leading 0x\n")
+	fmt.Printf("The %%v, %%d, %%o, %%x and %%X verbs also work formatting the value as if it were an integer\n")
+
 }
