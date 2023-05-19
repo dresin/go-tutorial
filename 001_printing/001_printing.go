@@ -74,4 +74,9 @@ func main() {
 	fmt.Printf("string:\t\t\t\t%%s\n")
 	fmt.Printf("chan:\t\t\t\t%%p\n")
 	fmt.Printf("pointer:\t\t\t%%p\n")
+	fmt.Printf("\nCompund objects (recursively):\n\n")
+	fmt.Printf("struct:\t\t\t{field0 field1 ...}\n")
+	fmt.Printf("array, slice:\t\t[elem0 elem1 ...]\n")
+	fmt.Printf("maps:\t\t\tmap[key1:value1 key2:value2 ...]\n")
+	fmt.Printf("pointer to above:\t&{}, &[], &map[]\n")
 }
