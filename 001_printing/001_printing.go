@@ -79,4 +79,10 @@ func main() {
 	fmt.Printf("array, slice:\t\t[elem0 elem1 ...]\n")
 	fmt.Printf("maps:\t\t\tmap[key1:value1 key2:value2 ...]\n")
 	fmt.Printf("pointer to above:\t&{}, &[], &map[]\n")
+	fmt.Printf("\nWidth and precision:\n\n")
+	fmt.Printf("%%f\tdefault width, default precision\n")
+	fmt.Printf("%%8f\twidth 8, default precision\n")
+	fmt.Printf("%%.2f\tdefault width, precision 2\n")
+	fmt.Printf("%%6.3f\twidth 6, precision 3\n")
+	fmt.Printf("%%3.f\twidth 3, precision 0\n")
 }
