@@ -18,4 +18,8 @@ func main() {
 	// var e = 10
 	fmt.Println("The only way to have a non-used variable is to name it _.")
 	var _ = "This variable doesn't have to be used."
+	fmt.Println("Variables declared without inital value are given zero value:")
+	fmt.Printf("\t0 for numeric types,\n")
+	fmt.Printf("\tfalse for the boolean type,\n")
+	fmt.Printf("\t\"\" (the empty string) for strings.\n")
 }
