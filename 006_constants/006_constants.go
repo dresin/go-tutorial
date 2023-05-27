@@ -25,4 +25,11 @@ func main() {
 		c2 = iota
 	)
 	fmt.Printf("c0, c1 and c2 have the values of: %v, %v and %v respectively.\n", c0, c1, c2)
+	const (
+		c3 = iota
+		c4 = iota
+		c5 = iota
+	)
+	fmt.Println("Iota resets to zero in every new const declaration.")
+	fmt.Printf("c3, c4 and c5 have the values of: %v, %v and %v respectively.\n", c3, c4, c5)
 }
