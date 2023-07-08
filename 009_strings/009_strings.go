@@ -13,4 +13,10 @@ func main() {
 	fmt.Printf("\tBackslashes have no special meaning.\n")
 	fmt.Printf("\tString can contain newlines.\n")
 	fmt.Printf("\tCarriage returns (`\\r`) are discarded.\n")
+	fmt.Printf("\nInterpreted string literals\n")
+	fmt.Printf("\tInterpreted string literals are defined between double quotes \"\n")
+	fmt.Printf("\tThey can consist of any character except newline and unescaped double quote.\n")
+	fmt.Printf("\tThree-digit octal escape (\\nnn) represents individual byte.\n")
+	fmt.Printf("\tTwo-digit hexadecimal escape (\\xnn) represents individual byte.\n")
+	fmt.Printf("\tAll other escapes represent possibly multi-byte UTF-8 encoded characters.\n")
 }
