@@ -20,4 +20,6 @@ func main() {
 	fmt.Printf("\n\tDoes string `%s` contain `%s`? %t", greeting, the, theInGreeting)
 	fmt.Printf("\n\nFunction ToUpper converts a string to uppercase:")
 	fmt.Printf("\n\t%s", strings.ToUpper(greeting))
+	fmt.Printf("\n\nFunction ToLower converts a string to lowercase:")
+	fmt.Printf("\n\t%s", strings.ToLower(greeting))
 }
