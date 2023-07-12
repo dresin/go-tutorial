@@ -18,4 +18,6 @@ func main() {
 	the := "The"
 	theInGreeting := strings.Contains(greeting, the)
 	fmt.Printf("\n\tDoes string `%s` contain `%s`? %t", greeting, the, theInGreeting)
+	fmt.Printf("\n\nFunction ToUpper converts a string to uppercase:")
+	fmt.Printf("\n\t%s", strings.ToUpper(greeting))
 }
