@@ -22,4 +22,6 @@ func main() {
 	fmt.Printf("\n\t%s", strings.ToUpper(greeting))
 	fmt.Printf("\n\nFunction ToLower converts a string to lowercase:")
 	fmt.Printf("\n\t%s", strings.ToLower(greeting))
+	fmt.Printf("\n\nFunction Replace replaces a substring with another substring:")
+	fmt.Printf("\n\t%s", strings.Replace(greeting, "!", " World", 1))
 }
