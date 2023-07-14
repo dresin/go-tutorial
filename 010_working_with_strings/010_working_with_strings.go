@@ -24,4 +24,18 @@ func main() {
 	fmt.Printf("\n\t%s", strings.ToLower(greeting))
 	fmt.Printf("\n\nFunction Replace replaces a substring with another substring:")
 	fmt.Printf("\n\t%s", strings.Replace(greeting, "!", " World", 1))
+	fmt.Printf("\n\nFunction Compare lexicographically compares two strings:")
+	fmt.Printf("\n\tIt returns an integer -1, 0 or 1")
+	fmt.Printf("\n\tstrings.Compare(string1, string2) will return:")
+	fmt.Printf("\n\t\t-1 if string1 contains unicode characters that come before string2 characters,")
+	fmt.Printf("\n\t\t 0 if string1 and string2 are equal,")
+	fmt.Printf("\n\t\t 1 if string1 contains unicode characters that come after string2 characters.")
+	fmt.Printf("\n\tThe unicode order of characters is evaluated from left to right, resprectively.")
+	s1 := "aaa"
+	s2 := "bb"
+	s3 := "bb"
+	s4 := "a"
+	fmt.Printf("\n\t%d", strings.Compare(s1, s2))
+	fmt.Printf("\n\t%d", strings.Compare(s2, s3))
+	fmt.Printf("\n\t%d", strings.Compare(s3, s4))
 }
