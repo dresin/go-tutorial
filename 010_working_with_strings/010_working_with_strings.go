@@ -38,4 +38,8 @@ func main() {
 	fmt.Printf("\n\t%d", strings.Compare(s1, s2))
 	fmt.Printf("\n\t%d", strings.Compare(s2, s3))
 	fmt.Printf("\n\t%d", strings.Compare(s3, s4))
+	fmt.Printf("\n\nFunction Split splits the string into substrings:")
+	fmt.Printf("\n\tstrings.Split(\"one,two\", \",\") will return:")
+	fmt.Printf("\n\t\t%s", strings.Split("one,two", ","))
+	fmt.Printf("\n\tstring \"one,two\" is split into substrings \"one\" and \"two\" using \",\" as a separator.")
 }
