@@ -42,4 +42,7 @@ func main() {
 	fmt.Printf("\n\tstrings.Split(\"one,two\", \",\") will return:")
 	fmt.Printf("\n\t\t%s", strings.Split("one,two", ","))
 	fmt.Printf("\n\tstring \"one,two\" is split into substrings \"one\" and \"two\" using \",\" as a separator.")
+	fmt.Printf("\n\nFunction Count counts the number of non-overlaping instances of substring")
+	fmt.Printf("\n\tstrings.Count(\"Hello\", \"l\") will return:")
+	fmt.Printf("\n\t\t%d", strings.Count("Hello", "l"))
 }
