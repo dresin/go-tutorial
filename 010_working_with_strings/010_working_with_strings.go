@@ -48,4 +48,7 @@ func main() {
 	fmt.Printf("\n\nFunction Repeat returns a string repeated given number of times:")
 	fmt.Printf("\n\tstrings.Repeat(\"Hey\", 3) will return:")
 	fmt.Printf("\n\t\t%s", strings.Repeat("Hey", 3))
+	fmt.Printf("\n\nFunction Index returns the index of the first substring appearance:")
+	fmt.Printf("\n\tstrings.Index.(\"Hello\", \"l\") will return:")
+	fmt.Printf("\n\t\t%d", strings.Index("Hello", "l"))
 }
