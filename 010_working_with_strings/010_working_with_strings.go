@@ -49,6 +49,8 @@ func main() {
 	fmt.Printf("\n\tstrings.Repeat(\"Hey\", 3) will return:")
 	fmt.Printf("\n\t\t%s", strings.Repeat("Hey", 3))
 	fmt.Printf("\n\nFunction Index returns the index of the first substring appearance:")
+	fmt.Printf("\n\tCharacters are enumerated using indices starting from 0.")
+	fmt.Printf("\n\tThe first character in string has index 0, the second character has index 1 and so on...")
 	fmt.Printf("\n\tstrings.Index.(\"Hello\", \"l\") will return:")
 	fmt.Printf("\n\t\t%d", strings.Index("Hello", "l"))
 }
