@@ -15,9 +15,13 @@ func main() {
 	he := "He"
 	heInGreeting := strings.Contains(greeting, he)
 	fmt.Printf("\n\tDoes string `%s` contain `%s`? %t", greeting, he, heInGreeting)
+	fmt.Printf("\n\tstrings.Contains(\"Hello!\", \"He\") will return:")
+	fmt.Printf("\n\t\t%t", strings.Contains(greeting, "He"))
 	the := "The"
 	theInGreeting := strings.Contains(greeting, the)
 	fmt.Printf("\n\tDoes string `%s` contain `%s`? %t", greeting, the, theInGreeting)
+	fmt.Printf("\n\tstrings.Contains(\"Hello!\", \"The\") will return:")
+	fmt.Printf("\n\t\t%t", strings.Contains(greeting, "The"))
 	fmt.Printf("\n\nFunction ToUpper converts a string to uppercase:")
 	fmt.Printf("\n\tstrings.ToUpper(\"Hello!\") will return:")
 	fmt.Printf("\n\t\t%s", strings.ToUpper(greeting))
