@@ -10,6 +10,8 @@ func main() {
 	fmt.Printf("\nThe length of a string can be determined using the len() function:")
 	greeting := "Hello!"
 	fmt.Printf("\n\tThe length of string `%s` is %d.", greeting, len(greeting))
+	fmt.Printf("\n\tlen(\"Hello!\") will return:")
+	fmt.Printf("\n\t\t%d", len("Hello!"))
 	fmt.Printf("\n\nstrings package")
 	fmt.Printf("\n\nFunction Contains determins if the string contains specific substring:")
 	he := "He"
