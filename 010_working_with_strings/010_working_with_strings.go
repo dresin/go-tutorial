@@ -35,13 +35,12 @@ func main() {
 	fmt.Printf("\n\t\t 0 if string1 and string2 are equal,")
 	fmt.Printf("\n\t\t 1 if string1 contains unicode characters that come after string2 characters.")
 	fmt.Printf("\n\tThe unicode order of characters is evaluated from left to right, resprectively.")
-	s1 := "aaa"
-	s2 := "bb"
-	s3 := "bb"
-	s4 := "a"
-	fmt.Printf("\n\t%d", strings.Compare(s1, s2))
-	fmt.Printf("\n\t%d", strings.Compare(s2, s3))
-	fmt.Printf("\n\t%d", strings.Compare(s3, s4))
+	fmt.Printf("\n\tstrings.Compare(\"aaa\", \"bb\") will return:")
+	fmt.Printf("\n\t\t%d", strings.Compare("aaa", "bb"))
+	fmt.Printf("\n\tstrings.Compare(\"bb\", \"bb\") will return:")
+	fmt.Printf("\n\t\t%d", strings.Compare("bb", "bb"))
+	fmt.Printf("\n\tstrings.Compare(\"bb\", \"a\") will return:")
+	fmt.Printf("\n\t\t%d", strings.Compare("bb", "a"))
 	fmt.Printf("\n\nFunction Split splits the string into substrings:")
 	fmt.Printf("\n\tstrings.Split(\"one,two\", \",\") will return:")
 	fmt.Printf("\n\t\t%s", strings.Split("one,two", ","))
