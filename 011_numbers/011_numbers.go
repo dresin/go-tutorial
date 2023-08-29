@@ -20,4 +20,7 @@ func main() {
 	fmt.Printf("\tint16\t(-32768 to 32767)\n")
 	fmt.Printf("\tint32\t(-2147483648 to 2147483647)\n")
 	fmt.Printf("\tint64\t(-9223372036854775808 to 9223372036854775807)\n\n")
+	fmt.Println("Float has two variations:")
+	fmt.Printf("\tfloat32\t(IEEE-754 32-bit floating-point numbers)\n")
+	fmt.Printf("\tfloat64\t(IEEE-754 64-bit floating-point numbers)\n\n")
 }
