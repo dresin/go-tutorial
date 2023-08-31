@@ -11,8 +11,12 @@ func main() {
 	fmt.Printf("Variable y is declared at the function level with the initial value of %v.\n", y)
 	z := 3
 	fmt.Println("Variable z is declared using the short assignment := instead of using var.")
-	fmt.Printf("Variable z has the initial value of %v.\n", z)
+	fmt.Printf("\tVariable z can be initialized to %v with the following instruction:\n", z)
+	fmt.Printf("\t\tz := 3\n")
 	fmt.Println("Short assignment construct can be used only inside of a function.")
+	fmt.Println("Once the variable is defined it's value can be changed.")
+	fmt.Printf("\tThe following statement will change the value of variable z to 4:\n")
+	fmt.Printf("\t\tz = 4\n")
 	fmt.Println("Defined variable has to be used or the code will not compile.")
 	// Next line would cause an error if it weren't commented out
 	// var e = 10
