@@ -23,7 +23,7 @@ func main() {
 	fmt.Println("Float has two variations:")
 	fmt.Printf("\tfloat32\t(IEEE-754 32-bit floating-point numbers)\n")
 	fmt.Printf("\tfloat64\t(IEEE-754 64-bit floating-point numbers)\n\n")
-	fmt.Println("Complex has two variations:")
-	fmt.Printf("\tcomplex64\t(consists of float32 real part and float32 imaginary part)\n")
-	fmt.Printf("\tcomplex128\t(consists of float64 real part and float64 imaginary part)\n\n")
+	fmt.Println("There are two numeric types used as aliases:")
+	fmt.Printf("\tbyte\t(alias for uint8, )\n")
+	fmt.Printf("\trune\t(alias for int32, represents a Unicode code point)\n\n")
 }
