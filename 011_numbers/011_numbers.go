@@ -24,6 +24,10 @@ func main() {
 	fmt.Printf("\tfloat32\t(IEEE-754 32-bit floating-point numbers)\n")
 	fmt.Printf("\tfloat64\t(IEEE-754 64-bit floating-point numbers)\n\n")
 	fmt.Println("There are two numeric types used as aliases:")
-	fmt.Printf("\tbyte\t(alias for uint8, )\n")
+	fmt.Printf("\tbyte\t(alias for uint8)\n")
 	fmt.Printf("\trune\t(alias for int32, represents a Unicode code point)\n\n")
+	fmt.Println("Integer types with implementation-specific sizes:")
+	fmt.Printf("\tuint\t(32 bits on 32-bit systems / 64 bits on 64-bit systems)\n")
+	fmt.Printf("\tint\t(32 bits on 32-bit systems / 64 bits on 64-bit systems)\n")
+	fmt.Printf("\tuintptr\t(uint large enough to store a pointer value)\n\n")
 }
