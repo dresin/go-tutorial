@@ -17,6 +17,10 @@ func main() {
 	fmt.Println("Once the variable is defined it's value can be changed.")
 	fmt.Printf("\tThe following statement will change the value of variable z to 4:\n")
 	fmt.Printf("\t\tz = 4\n")
+	fmt.Println("Once the variable is defined it can not be defined again.")
+	fmt.Printf("\tThe following two lines of code will cause an error when used together:\n")
+	fmt.Printf("\t\tv := 1 // this line is OK\n")
+	fmt.Printf("\t\tv := 2 // this line will cause an error\n")
 	fmt.Println("Defined variable has to be used or the code will not compile.")
 	// Next line would cause an error if it weren't commented out
 	// var e = 10
