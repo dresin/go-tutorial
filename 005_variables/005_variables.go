@@ -21,6 +21,9 @@ func main() {
 	fmt.Printf("\tThe following two lines of code will cause an error when used together:\n")
 	fmt.Printf("\t\tv := 1 // this line is OK\n")
 	fmt.Printf("\t\tv := 2 // this line will cause an error\n")
+	fmt.Println("Previously defined variable generally can not be used with := short assignment operator.")
+	fmt.Printf("\tThe exception is if there is another previously not defined variable in the same statement:\n")
+	fmt.Printf("\t\tw, v := 1, 2 // v can be used here only because w has never been defined before\n")
 	fmt.Println("Defined variable has to be used or the code will not compile.")
 	// Next line would cause an error if it weren't commented out
 	// var e = 10
