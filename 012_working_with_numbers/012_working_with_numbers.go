@@ -24,4 +24,15 @@ func main() {
 	fmt.Printf("x + 1 = %v\n", x+1)
 	fmt.Printf("\t\t\t// 255 + 1 will equal to 0, and not to 256, because of the overflow\n")
 	fmt.Printf("\t\t\t// the overflow happens because uint8 type has a range from 0 to 255\n")
+	fmt.Printf("\t\tSubtracting 1 from the smallest possible uint8 number using operator -:\n")
+	fmt.Printf("\t\t\tvar y uint8 = 0\n")
+	var y uint8 = 0
+	fmt.Printf("\t\t\tfmt.Printf(\"y = %%v\", y)\n")
+	fmt.Printf("\t\t\t// the previous line will output: ")
+	fmt.Printf("y = %v\n", y)
+	fmt.Printf("\t\t\tfmt.Printf(\"y - 1 = %%v\", y - 1)\n")
+	fmt.Printf("\t\t\t// the previous line will output: ")
+	fmt.Printf("y - 1 = %v\n", y-1)
+	fmt.Printf("\t\t\t// 0 - 1 will equal to 255, and not to -1, because of the overflow\n")
+	fmt.Printf("\t\t\t// the overflow happens because uint8 type has a range from 0 to 255\n")
 }
