@@ -46,4 +46,10 @@ func main() {
 	fmt.Printf("z * 3 = %v\n", z*3)
 	fmt.Printf("\t\t\t// 100 * 3 will equal to 44, and not to 300, because of the overflow\n")
 	fmt.Printf("\t\t\t// the overflow happens because uint8 type has a range from 0 to 255\n")
+	fmt.Printf("Integer division\n")
+	fmt.Printf("\tDividing integers using operator / truncates towards zero:\n")
+	fmt.Printf("\t\t3 / 2 = %v\n", 3/2)
+	fmt.Printf("\t\t3 / -2 = %v\n", 3/-2)
+	fmt.Printf("\t\t-3 / 2 = %v\n", -3/2)
+	fmt.Printf("\t\t-3 / -2 = %v\n", -3/-2)
 }
