@@ -52,4 +52,25 @@ func main() {
 	fmt.Printf("\t\t3 / -2 = %v\n", 3/-2)
 	fmt.Printf("\t\t-3 / 2 = %v\n", -3/2)
 	fmt.Printf("\t\t-3 / -2 = %v\n", -3/-2)
+	fmt.Printf("\tException: if the dividend is the most negative value for the int type, and the divisor is -1:\n")
+	fmt.Printf("\t\t\tvar min_int8 int8 = -128\n")
+	var min_int8 int8 = -128
+	fmt.Printf("\t\t\tfmt.Printf(\"min_int8 / -1 = %%v\", min_int8 / -1)\n")
+	fmt.Printf("\t\t\t// the previous line will output: ")
+	fmt.Printf("min_int8 / -1 = %v\n", min_int8/-1)
+	fmt.Printf("\t\t\tvar min_int16 int16 = -32768\n")
+	var min_int16 int16 = -32768
+	fmt.Printf("\t\t\tfmt.Printf(\"min_int16 / -1 = %%v\", min_int16 / -1)\n")
+	fmt.Printf("\t\t\t// the previous line will output: ")
+	fmt.Printf("min_int16 / -1 = %v\n", min_int16/-1)
+	fmt.Printf("\t\t\tvar min_int32 int32 = -2147483648\n")
+	var min_int32 int32 = -2147483648
+	fmt.Printf("\t\t\tfmt.Printf(\"min_int32 / -1 = %%v\", min_int32 / -1)\n")
+	fmt.Printf("\t\t\t// the previous line will output: ")
+	fmt.Printf("min_int32 / -1 = %v\n", min_int32/-1)
+	fmt.Printf("\t\t\tvar min_int64 int64 = -9223372036854775808\n")
+	var min_int64 int64 = -9223372036854775808
+	fmt.Printf("\t\t\tfmt.Printf(\"min_int64 / -1 = %%v\", min_int64 / -1)\n")
+	fmt.Printf("\t\t\t// the previous line will output: ")
+	fmt.Printf("min_int64 / -1 = %v\n", min_int64/-1)
 }
