@@ -73,4 +73,6 @@ func main() {
 	fmt.Printf("\t\t\tfmt.Printf(\"min_int64 / -1 = %%v\", min_int64 / -1)\n")
 	fmt.Printf("\t\t\t// the previous line will output: ")
 	fmt.Printf("min_int64 / -1 = %v\n", min_int64/-1)
+	fmt.Printf("\tIf the divisor is a constant, it must not be zero.\n")
+	fmt.Printf("\tIf the divisor is zero during the runtime it will cause a run-time panic.\n")
 }
